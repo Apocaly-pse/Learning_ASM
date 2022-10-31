@@ -1,3 +1,4 @@
+.DS_Store
 # Prerequisites
 *.d
 
@@ -5,6 +6,7 @@
 *.o
 *.ko
 *.obj
+*.OBJ
 *.elf
 
 # Linker output
@@ -30,6 +32,7 @@
 
 # Executables
 *.exe
+*.EXE
 *.out
 *.app
 *.i*86
