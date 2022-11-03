@@ -4,8 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-CODES	CODE/test.asm	/^CODES SEGMENT$/;"	l
-DATAS	CODE/test.asm	/^DATAS SEGMENT$/;"	l
-STACKS	CODE/test.asm	/^STACKS SEGMENT$/;"	l
-START	CODE/test.asm	/^START:$/;"	l
-STRING	CODE/test.asm	/^    STRING  DB  'Hello World!',13,10,'$'$/;"	d
+CODES	CODE/HELLOWORLD/test.asm	/^CODES SEGMENT$/;"	l
+CODES	CODE/first.asm	/^CODES SEGMENT$/;"	l
+DATAS	CODE/HELLOWORLD/test.asm	/^DATAS SEGMENT$/;"	l
+DATAS	CODE/first.asm	/^DATAS SEGMENT$/;"	l
+STACKS	CODE/HELLOWORLD/test.asm	/^STACKS SEGMENT$/;"	l
+STACKS	CODE/first.asm	/^STACKS SEGMENT$/;"	l
+START	CODE/HELLOWORLD/test.asm	/^START:$/;"	l
+START	CODE/first.asm	/^START:$/;"	l
+STRING	CODE/HELLOWORLD/test.asm	/^    STRING  DB  'Hello World!',13,10,'$'$/;"	d
+STRING	CODE/first.asm	/^    STRING  DB  'Hello World!',13,10,'$'$/;"	d
+assume	CODE/chap4/1.asm	/^assume cs:codeseg$/;"	l
+codeseg	CODE/chap4/1.asm	/^codeseg segment$/;"	l
